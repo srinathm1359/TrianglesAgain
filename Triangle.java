@@ -40,4 +40,11 @@ public class Triangle {
     }
     return "scalene";
   }
+
+  public String toString() {
+    String v1_String = "v1(" + v1.getX() + ", " + v1.getY() + ")";
+    String v2_String = "v2(" + v2.getX() + ", " + v2.getY() + ")";
+    String v3_String = "v3(" + v3.getX() + ", " + v3.getY() + ")";
+    return v1_String + " " + v2_String + " " + v3_String;
+  }
 }
