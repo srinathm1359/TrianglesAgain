@@ -16,7 +16,11 @@ public class Tester {
     Point D = new Point(4,2);
     Triangle first = new Triangle(A,B,D);
     Triangle second = new Triangle(0,0,3,3,6,0);
+    //Testing getPerimeter()
     System.out.println(first.getPerimeter());
     System.out.println(second.getPerimeter());
+    //Testing getArea()
+    System.out.println(first.getArea());
+    System.out.println(second.getArea());
   }
 }
