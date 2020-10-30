@@ -31,5 +31,8 @@ public class Tester {
     System.out.println(first);
     System.out.println(second);
     System.out.println(third);
+    //Testing setVertex()
+    second.setVertex(1,D);
+    System.out.println(second);
   }
 }
