@@ -27,5 +27,9 @@ public class Tester {
     System.out.println(first.classify());
     System.out.println(second.classify());
     System.out.println(third.classify());
+    //Testing toString()
+    System.out.println(first);
+    System.out.println(second);
+    System.out.println(third);
   }
 }
