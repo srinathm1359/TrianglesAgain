@@ -26,4 +26,8 @@ public class Point {
     double yshift = y - other.y;
     return Math.sqrt(xshift*xshift + yshift*yshift);
   }
+
+  public boolean equals(Point other) {
+    return (x == other.x && y == other.y);
+  }
 }
