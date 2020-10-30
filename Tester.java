@@ -8,9 +8,15 @@ public class Tester {
     Point B = new Point(4,6);
     System.out.println(A.distanceTo(B));
     //Testing equals()
-    Point C = new Point(1,2);
+    Point C = new Point(A);
     System.out.println(A.equals(B));
     System.out.println(A.equals(C));
     System.out.println(B.equals(C));
+    //Triangle.java
+    Point D = new Point(4,2);
+    Triangle first = new Triangle(A,B,D);
+    Triangle second = new Triangle(0,0,3,3,6,0);
+    System.out.println(first.getPerimeter());
+    System.out.println(second.getPerimeter());
   }
 }
