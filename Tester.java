@@ -22,5 +22,10 @@ public class Tester {
     //Testing getArea()
     System.out.println(first.getArea());
     System.out.println(second.getArea());
+    //Testing classify()
+    Triangle third = new Triangle(0,0,2,0,1,1.7320508);
+    System.out.println(first.classify());
+    System.out.println(second.classify());
+    System.out.println(third.classify());
   }
 }
