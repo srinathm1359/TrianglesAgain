@@ -6,4 +6,10 @@ public class Point {
     x = X;
     y = Y;
   }
+
+  //Construct a point given a point
+  public Point(Point p) {
+    x = p.x;
+    y = p.y;
+  }
 }
